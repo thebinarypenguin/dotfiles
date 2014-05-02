@@ -23,7 +23,6 @@ git config --global github.user GithubUsername
 git config --global github.token SecretToken
 git config --global diff.tool YourDiffTool
 git config --global merge.tool YourMergeTool
-
 ```
 
 Aliases
