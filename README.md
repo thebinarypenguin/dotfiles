@@ -41,10 +41,10 @@ flg = log -p
 plg = log --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 
 # What did I do yesterday?
-yesterday = log --graph --author=Ethan --after='1 day ago' --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+yesterday = log --graph --author=YOUR_NAME --after='1 day ago' --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 
 # What did I do last week?
-lastweek = log --graph --author=Ethan --after='1 week ago' --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+lastweek = log --graph --author=YOUR_NAME --after='1 week ago' --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 ```
 
 ### Vim
