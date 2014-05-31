@@ -8,6 +8,7 @@
 - Tmux config
 - Ubuntu Mono font
 - GNOME Terminal (see notes below)
+- Automatically run a script when you log into your desktop environment (see notes below)
 
 ## Notes
 
@@ -48,7 +49,7 @@ lastweek = log --graph --author=Ethan --after='1 week ago' --date=relative --pre
 
 ### Vim
 
-For organizational purposes all vim config lives in .vim/ You will need to make the following symlinks
+For organizational purposes all vim config lives in `.vim/` You will need to make the following symlinks
 
 ```
 ln -s ~/.vim/.vimrc ~/.vimrc
@@ -62,4 +63,17 @@ Force GNOME-Terminal to set the TERM environment variable to "xterm-256color"
 
 ```
 env TERM=xterm-256color /bin/bash
+```
+
+### Automatically run a script when you log into your desktop environment
+
+Desktop files that live in `~/.config/autostart/` will be run automatically when you login. Here is an example.
+
+```
+[Desktop Entry]
+Type=Application
+Name=Awesome Script Name
+Exec=~/bin/awesome-script.sh
+Icon=system-run
+X-GNOME-Autostart-enabled=true
 ```
