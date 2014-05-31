@@ -8,7 +8,6 @@
 - Tmux config
 - Ubuntu Mono font
 - GNOME Terminal (see notes below)
-- Useful Symlinks (see notes below)
 
 ## Notes
 
@@ -64,10 +63,3 @@ Force GNOME-Terminal to set the TERM environment variable to "xterm-256color"
 ```
 env TERM=xterm-256color /bin/bash
 ```
-
-### Useful Symlinks
-
-```
-ln -s /usr/bin/ack-grep ~/bin/ack
-```
-
