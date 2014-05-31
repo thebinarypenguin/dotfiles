@@ -1,4 +1,4 @@
-# TheBinaryPenguin's Dotfiles
+# TheBinaryPenguin's Dotfiles and Other Goodies
 
 ## Contents
 
@@ -68,7 +68,6 @@ env TERM=xterm-256color /bin/bash
 ### Useful Symlinks
 
 ```
-ln -s /usr/bin/xdg-open ~/bin/xopen
 ln -s /usr/bin/ack-grep ~/bin/ack
 ```
 
