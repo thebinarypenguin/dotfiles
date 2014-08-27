@@ -2,7 +2,7 @@
 
 ## Usage
 
-1. Copy everything (except `.gitignore` and `README.md`) to your home directory
+1. Copy everything (except `README.md`) to your home directory
 
 2. Replace placeholders in `.gitconfig`
 
