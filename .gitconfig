@@ -1,0 +1,18 @@
+[user]
+  name = FULL_NAME
+  email = EMAIL
+[github]
+  user = GITHUB_USERNAME
+  token = GITHUB_TOKEN
+[color]
+  ui = true
+[diff]
+  tool = DIFF_TOOL
+[merge]
+  tool = MERGE_TOOL
+[alias]
+  # What did I do yesterday?
+  yesterday = log --graph --author='FULL_NAME' --after='1 day ago' --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+
+  # What did I do last week?
+  lastweek = log --graph --author='FULL_NAME' --after='1 week ago' --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
